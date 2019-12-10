@@ -1,0 +1,85 @@
+body{
+    font-family: 'Cookie', 'Cursive';
+    background-image: url("/Images/background.svg");
+}
+label{
+    color: black;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 0;
+    width: 15%;
+    background-color: white;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+label[email-label]{
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+textarea{
+    float: right;
+    width: 78%;
+    margin-top: 6px;
+    margin-right: 4%;
+    border: 1.5px solid plum;
+}
+input[type=text]{
+    margin-left: 15%;
+    width: 78%;
+    margin-right: 4%;
+    margin-left: 17%
+}
+span{
+    color: red;
+    margin-right: 0;
+    clear: both;
+    
+}
+input{
+    padding: .25em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+    width: 80%;
+}
+input:invalid{
+    outline: none;
+    border: 1.5px solid plum;
+}
+input:focus{
+    border: 1.5px solid black;
+}
+input[type=submit], input[type=reset]{
+    clear: both;
+    padding: .35em;
+    color: plum;
+    width: 20%;
+    margin-top: 2em;
+}
+ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
